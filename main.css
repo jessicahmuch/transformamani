@@ -1,0 +1,419 @@
+body {
+  overflow-x: hidden;
+
+}
+
+header {
+      width: 100%;
+      height: 100vh;
+      background: url("images/abstract-art-blur-788891(1).jpg") no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color:  white;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #B22222;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
+
+#logo {
+  margin-top: 200px;
+}
+
+.logo2 img {
+  height: 200px;
+  width: 200px;
+  margin-left: 100px;
+
+}
+
+
+#logo p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.yooh {
+
+}
+
+.yoh {
+  font-weight: lighter;
+  color: white;
+  font-size: 15px;
+}
+
+.btn {
+   margin-left: 200px;
+   border-radius: -10px;
+}
+
+strong {
+  text-align: center;
+}
+
+
+#aboutus {
+  background-color: #fff;
+  height: 210vh;
+
+}
+#aboutus img {
+  width: 100%;
+
+}
+
+#aboutus p {
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.aboutus p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.text {
+  color:  	#A9A9A9;
+  font-size: 15px;
+}
+.content1 {
+  width: 100%;
+
+}
+.content1 h5 {
+  font-weight: bolder;
+  text-align: center;
+
+  font-size: 16px;
+}
+
+.content1 p  {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.content3 {
+ width: 100%;
+}
+
+.content3 img {
+  width: 400px;
+  height: 400px;
+}
+
+#mission {
+  background-color:  	#F5F5DC;
+  height: 220vh;
+}
+
+
+.mission h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.mission p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.content4 img {
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.content5 p {
+  text-align: right;
+  margin-top: 50px;
+
+}
+
+
+
+p {
+  font-size: 20px;
+}
+
+.content7 img {
+  width: 100%;
+  height: 500px;
+
+}
+
+#rates {
+  height: 130vh;
+  background-color: white;
+}
+
+h2  {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+#rates p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color:  	#FF8C00;
+}
+
+.jpg img {
+  width: 100%;
+
+}
+
+
+
+/*effect-underline
+a.effect-underline:after {
+
+
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/*effect-box
+a.effect-box:after,
+a.effect-box:before {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+
+}
+
+a.effect-box:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+a.effect-box:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.effect-box:hover:after,
+a.effect-box:hover:before {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/* effect-shine */
+.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+.particles {
+  background-image: url("images/autumn-beautiful-branch-772520.jpg");
+  -webkit-background-size: cover;
+  height: 650px;
+
+}
+
+#team p {
+  font-size: 30px;
+  font-family: 'Yeon Sung', cursive;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.particles a {
+  text-decoration: none;
+  text-decoration-style: dotted;
+}
+
+ h2 {
+  text-transform: uppercase;
+  color: black;
+}
+
+.gallery {
+  margin: 10px 50px;
+}
+
+.gallery img {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+footer {
+  width: 100%;
+  background-color: #222;
+  padding: 60px 0px;
+  height: 60vh;
+}
+  span {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+  }
+
+  footer h2 {
+    color: white;
+  }
+
+  footer h4 {
+    text-align: center;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    text-decoration-style: none;
+  }
