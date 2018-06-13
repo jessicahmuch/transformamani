@@ -1,5 +1,6 @@
-# transformamani.github.io
-A Charity website
+# Final updates of Transform-amani-peace makers website.
 
-check out my site:  https://jessicahmuch.github.io/transformamani/
+
+>link to website's final updates:
+
 
